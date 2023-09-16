@@ -1,0 +1,8 @@
+<!ELEMENT company (product)+>
+<!ELEMENT product (productName,productId,price,mfgDate,expDate)*>
+<!ELEMENT productName (#PCDATA)>
+<!ELEMENT productId (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT mfgDate (#PCDATA)>
+<!ELEMENT expDate (#PCDATA)>
+<!ATTLIST product brand CDATA #REQUIRED>

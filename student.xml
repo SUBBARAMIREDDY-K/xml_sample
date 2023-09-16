@@ -1,0 +1,33 @@
+<!DOCTYPE college [
+<!ELEMENT college (student*)>
+<!ELEMENT student (studentName,stuId,branch,marks+)>
+<!ELEMENT studentName (#PCDATA) >
+<!ELEMENT stuId (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT marks (#PCDATA|sub)*>
+<!ELEMENT sub (#PCDATA)>
+]>
+<college>
+    <student>
+        <studentName> SUBA RAMI RADDY.K  </studentName>
+        <stuId> 19091A05F0 </stuId>
+        <branch>COMPUTER SCIENCE AND ENGINEERING </branch>
+        <marks>
+            MATHS       <sub>74</sub>
+            PHYSICS     <sub>60</sub>
+            CHEMISTRY   <sub> 55 </sub>
+            CORE JAVA   <sub>74 </sub>
+        </marks>
+    </student>
+    <student>
+        <studentName>VEERA BADRA </studentName>
+        <stuId> 19091A05H7 </stuId>
+        <branch> COMPUTER SCIENCE AND ENGINEERING </branch>
+        <marks>
+            MATHS       <sub>75</sub>
+            PHYSICS     <sub>59</sub>
+            CHEMISTRY   <sub>58</sub>
+            CORE JAVA   <sub>72</sub>
+            </marks>
+     </student>
+</college>

@@ -1,0 +1,16 @@
+<schema targetNamespace="http://productinfo.com" xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<element name="products">
+<complexType>
+<sequence>
+<element name="product">
+<complexType>
+<sequence>
+<element name="proName" type="string"/>
+<element name="proId" type="integer"/>
+</sequence>
+</complexType>
+</element>
+</sequence>
+</complexType>
+</element>
+</schema>

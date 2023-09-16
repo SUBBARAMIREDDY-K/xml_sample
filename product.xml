@@ -1,0 +1,17 @@
+<!DOCTYPE company SYSTEM "product.dtd">
+<company>
+    <product brand="cadbouery">
+        <productName>DAIRY MILK</productName>
+        <productId>007003G277</productId>
+        <price>180</price>
+        <mfgDate>03-09-2021</mfgDate>
+        <expDate>27-11-2022</expDate>
+    </product>
+    <product brand="ITC">
+        <productName>LAYS</productName>
+        <productId>0030035F033</productId>
+        <price>10</price>
+        <mfgDate>01-06-2021</mfgDate>
+        <expDate>22-07-2022</expDate>
+    </product>
+</company>

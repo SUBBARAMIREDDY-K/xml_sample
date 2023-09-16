@@ -1,0 +1,22 @@
+<employees xmlns="http://empinfo.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://empinfo.com employees.xsd">
+<employee>
+    <empName>SUBBARAMI REDDY . K</empName>
+    <eDesignation>DATA SCIENTIST </eDesignation>
+    <salary>75000</salary>
+    <doj>2023-09-03</doj>
+    <experience>3</experience>
+    <organization>GOOGLE</organization>
+    <address>HI-TECH city,near Kondapur,Hyderabad</address>
+</employee>
+<employee>
+    <empName>VEERA BHADRA SWAMY . CH </empName>
+    <eDesignation>SALES MANAGER</eDesignation>
+    <salary>100000</salary>
+    <doj>2023-06-22</doj>
+    <experience>3</experience>
+    <organization>APPLE</organization>
+    <address>1 Apple park Way,cupertino,Califorina,USA</address>
+</employee>
+</employees>
